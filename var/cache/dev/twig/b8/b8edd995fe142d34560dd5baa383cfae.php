@@ -49,17 +49,16 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
         // line 4
         $this->loadTemplate("navBar.html.twig", "v_partnerPage.html.twig", 4)->display($context);
         // line 5
+        $this->loadTemplate("fooTer.html.twig", "v_partnerPage.html.twig", 5)->display($context);
+        // line 6
         echo "<!DOCTYPE html>
 <html lang=\"en\">
 \t<body>
-\t\t<br>
+
 \t\t<h1>
 \t\t\t<span class=\"title-partner\">Nos Partenaires</span>
 \t\t</h1>
 \t\t<div class=\"bar-partner\"></div>
-\t\t<br><br><br>
-\t\t<span class=\"text-description\">Nous sommes reconnaissants pour le soutien de nos partenaires qui nous permettent de continuer dans cette aventure</span>
-\t\t<br><br><br><br>
 \t\t<div class=\"button\">
 \t\t\t<div class=\"button2\">
 \t\t\t\t<a href=\"/\">
@@ -67,11 +66,15 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 \t\t\t\t</a>
 \t\t\t</div>
 \t\t</div>
-\t\t<div class=\"cards\">
-\t\t\t<div class=\"cards2\"></div>
-\t\t</div>
-\t\t
+\t\t<span class=\"text-description\">Nous sommes reconnaissants pour le soutien de nos partenaires qui nous permettent de continuer dans cette aventure</span>
+
+
+\t\t<!-- <div class=\"cards\">
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"cards2\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-->
 \t</body>
+
 </html>
 ";
         
@@ -94,7 +97,7 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 
     public function getDebugInfo()
     {
-        return array (  52 => 5,  50 => 4,  43 => 1,);
+        return array (  54 => 6,  52 => 5,  50 => 4,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -103,17 +106,15 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 <link href=\"https://fonts.googleapis.com/css?family=Poppins&display=swap\" rel=\"stylesheet\">
 <link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
 {% include 'navBar.html.twig' %}
+{% include 'fooTer.html.twig' %}
 <!DOCTYPE html>
 <html lang=\"en\">
 \t<body>
-\t\t<br>
+
 \t\t<h1>
 \t\t\t<span class=\"title-partner\">Nos Partenaires</span>
 \t\t</h1>
 \t\t<div class=\"bar-partner\"></div>
-\t\t<br><br><br>
-\t\t<span class=\"text-description\">Nous sommes reconnaissants pour le soutien de nos partenaires qui nous permettent de continuer dans cette aventure</span>
-\t\t<br><br><br><br>
 \t\t<div class=\"button\">
 \t\t\t<div class=\"button2\">
 \t\t\t\t<a href=\"/\">
@@ -121,11 +122,15 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 \t\t\t\t</a>
 \t\t\t</div>
 \t\t</div>
-\t\t<div class=\"cards\">
-\t\t\t<div class=\"cards2\"></div>
-\t\t</div>
-\t\t
+\t\t<span class=\"text-description\">Nous sommes reconnaissants pour le soutien de nos partenaires qui nous permettent de continuer dans cette aventure</span>
+
+
+\t\t<!-- <div class=\"cards\">
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"cards2\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-->
 \t</body>
+
 </html>
 ", "v_partnerPage.html.twig", "C:\\Web2\\WashandWatt\\templates\\v_partnerPage.html.twig");
     }

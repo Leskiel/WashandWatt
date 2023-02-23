@@ -16,6 +16,6 @@ if (!\class_exists(App_KernelDevDebugContainer::class, false)) {
 
 return new \ContainerW04xTT0\App_KernelDevDebugContainer([
     'container.build_hash' => 'W04xTT0',
-    'container.build_id' => 'e597520e',
-    'container.build_time' => 1676648183,
+    'container.build_id' => 'e30cf26c',
+    'container.build_time' => 1677140605,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerW04xTT0');
