@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'be4a69bca51eecd7afd8c811d7897a7cb97b3fd3',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '7707ad859c9496c88856bc59aa6eb5166fcc4504',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'be4a69bca51eecd7afd8c811d7897a7cb97b3fd3',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '7707ad859c9496c88856bc59aa6eb5166fcc4504',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -590,6 +590,15 @@
             'reference' => 'dcfac94d6bdcf95c126e8ccac2104917c7c8f135',
             'type' => 'symfony-bundle',
             'install_path' => __DIR__ . '/../sensio/framework-extra-bundle',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/apache-pack' => array(
+            'pretty_version' => 'v1.0.1',
+            'version' => '1.0.1.0',
+            'reference' => '3aa5818d73ad2551281fc58a75afd9ca82622e6c',
+            'type' => 'symfony-pack',
+            'install_path' => __DIR__ . '/../symfony/apache-pack',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

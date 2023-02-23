@@ -5,5 +5,5 @@ app_home:
  controller: App\Controller\c_homePage::index
 
 app_partner:
- path: /partner
+ path: /partenaires
  controller: App\Controller\c_partnerPage::index
