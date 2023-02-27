@@ -7,14 +7,23 @@
 }
 body {
   margin: 0;
+  padding: 0;
   text-align: center;
+  height: 100%;
+  position: relative;
+  padding-bottom: 10%;
 }
+main {
+  position: relative;
+  text-align: center;
+  padding-bottom: 10%;
 
+}
 .bar-partner {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 350px;
   border-radius: 50px;
-  border: 4px solid #06988d;
+  border: 3px solid #06988d;
   margin-left: auto;
   margin-right: auto;
 }
@@ -38,18 +47,56 @@ body {
   border: 0px;
   margin: 3%;
 }
-.cards {
-  overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 1);
-  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 1);
-  transform: rotate(90.00000250447808deg);
-  background-color: rgba(
-    244.93944704532623,
-    244.93944704532623,
-    244.93944704532623,
-    1
-  );
-  width: 350px;
-  height: 200px;
-  border-radius: 20%;
+
+.cards-container {
+  padding-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  }
+  
+  .card {
+  width: 300px;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  }
+  
+  .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  }
+  
+  .card p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666;
+  }
+.partner-cards{
+  color:#06988d ;
+  bottom: 0;
+  right:10%;
+  position:absolute;
 }

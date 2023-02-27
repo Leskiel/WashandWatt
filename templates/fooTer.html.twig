@@ -1,36 +1,53 @@
-<link href="{{ asset('style/fooTer.css') }}" type="text/css" rel="stylesheet">
-
 <!DOCTYPE html>
 <html lang="en">
-	<footer>
-		<img class="logo2" src="img/Logo.png" alt="logo">
-		<span class="slogan">
-			Lessivez, rencontrez, et pédalez</span>
-		<span class="title-news">
-			Venez suivre nos aventures</span>
-		<div class="newsletter">
-			<input type="text" placeholder="Saisissez votre e-mail" class="mail" required>
-			<button class="send-news" type="button">Envoyer</button>
-		</div>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- importer la bibliothèque Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- importer la bibliothèque jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- importer la bibliothèque Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- importer la bibliothèque Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link href="{{ asset('style/fooTer.css') }}" type="text/css" rel="stylesheet">
+</head>
 
-		<div class="Service-zone">
-			<span class="service">Service</span>
-			<a href="/">
-				<span class="about-foot">À Propos</span>
-			</a>
-			<a href="/">
-				<span class="contact">Nous contacter</span>
-			</a>
-			<a href="/">
-				<span class="private">Thermes et Conditions</span>
-			</a>
-		</div>
-		<div class="social-network">
-			<span class="label-social">Suivez nous sur
-			</span>
-			<img class="logo3" src="img/instagram.png" alt="logo">
-			<img class="logo4" src="img/facebook.png" alt="logo">
-			<img class="logo5" src="img/linkedin.png" alt="logo">
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="logo2" src="img/Logo.png" alt="logo">
+				<span class="slogan">
+					Lessivez, rencontrez, et pédalez
+				</span>
+			</div>
+			<div class="col-md-4">
+				<span class="title-news">
+					Venez suivre nos aventures
+				</span>
+				<div class="newsletter">
+					<form>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Saisissez votre e-mail" required>
+						</div>
+						<button type="submit" class="btn btn-primary">Envoyer</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="service-zone">
+					<span class="service">Service</span>		
+					<a class="about-foot" href="/">À Propos</a>
+					<a class="contactt" href="/">Nous contacter</a>
+					<a class="private" href="/">Thermes et Conditions</a>
+				</div>
+				<div class="social-network">
+					<span class="label-social">Suivez nous sur</span>
+					<img class="logo3" src="img/instagram.png" alt="logo">
+					<img class="logo4" src="img/facebook.png" alt="logo">
+					<img class="logo5" src="img/linkedin.png" alt="logo">
+				</div>
+			</div>
 		</div>
 	</footer>
 </html>

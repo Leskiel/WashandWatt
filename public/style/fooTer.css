@@ -1,110 +1,106 @@
+
 footer {
-    background-color: #f5f5f5;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30%;
-  }
-  .logo2 {
-    width: 4%;
-    top: 5%;
-    left: 6%;
-    position: absolute;
-  }
-  .slogan {
-    font-family: Rubik;
-    color: #73788c;
-    font-size: 100%;
-    top: 40%;
-    left: 6%;
-    position: absolute;
-  }
-  .title-news {
-    font-weight: bold;
-    color: #06988d;
-    top: 55%;
-    left: 6%;
-    position: absolute;
-  }
-  .newsletter {
-    top: 70%;
-    left: 6%;
-    position: absolute;
-  }
-  .mail {
-    background-color: #fefeff;
-    padding: 8px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 12px;
-    outline: none;
-    transition: border-color 0.2s ease-in-out;
-  }
-  .mail:focus {
-    border-color: #69b99d;
-  }
-  .send-news {
-    background-color: #69b99d;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 8px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  a {
-    color: #8e8e8e;
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
-  }
-  
-  a:hover {
-    color: #69b99d;
-    text-decoration: underline;
-  }
-  
-  .service-zone a {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 6px 0;
-  }
-  .service {
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: center;
-    padding-top: 3%;
-    
-  }
-  .social-network {
-    display: flex;
-    position: absolute;
-    top: 0;
-    right: 6%;
-    padding-top: 3%;
-  
-  }
-  .logo3{
-    display: flex;
-    width: 20%;
-    top: 120%;
-    right: 6%;
-    position: absolute;
-  }
-  .logo4{
-    display: flex;
-    width: 20%;
-    top: 120%;
-    right: 40%;
-    position: absolute;
-  }
-  .logo5{
-    display: flex;
-    width: 20%;
-    top: 120%;
-    right: 74%;
-    position: absolute;
-  }
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  bottom: 0;
+}
+.logo2 {
+  width: 4%;
+  top: 5%;
+  left: 6%;
+  position: absolute;
+}
+.slogan {
+  font-family: Rubik;
+  color: #73788c;
+  font-size: 100%;
+  top: 40%;
+  left: 6%;
+  position: absolute;
+}
+.title-news {
+  font-weight: bold;
+  color: #06988d;
+  top: 55%;
+  left: 6%;
+  position: absolute;
+}
+.newsletter {
+  top: 70%;
+  left: 6%;
+  position: absolute;
+}
+.mail {
+  background-color: #fefeff;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.mail:focus {
+  border-color: #69b99d;
+}
+.send-news {
+  background-color: #69b99d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a {
+  color: #8e8e8e;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #69b99d;
+  text-decoration: underline;
+}
+
+.service-zone a {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 6px 0;
+}
+.service {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+.social-network {
+  position: absolute;
+  top: 0;
+  right: 6%;
+  padding-top: 4%;
+}
+.logo3 {
+  width: 20%;
+  top: 120%;
+  right: 6%;
+  position: absolute;
+}
+.logo4 {
+  width: 20%;
+  top: 120%;
+  right: 40%;
+  position: absolute;
+}
+.logo5 {
+  width: 20%;
+  top: 120%;
+  right: 74%;
+  position: absolute;
+}
+
 
