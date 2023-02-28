@@ -42,50 +42,50 @@ class __TwigTemplate_61cf85c0ad8b23efcdf7c8c8a64112f5 extends Template
         // line 1
         echo "<!DOCTYPE html>
 <html lang=\"en\">
-<head>
-\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-\t<!-- importer la bibliothèque Bootstrap -->
-\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\">
-\t<!-- importer la bibliothèque jQuery -->
-\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>
-\t<!-- importer la bibliothèque Popper.js -->
-\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js\"></script>
-\t<!-- importer la bibliothèque Bootstrap -->
-\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>
-\t<link href=\"";
-        // line 13
+\t<head>
+\t\t<meta
+\t\tname=\"viewport\" content=\"width=device-width, initial-scale=1\">
+\t\t<!-- importer la bibliothèque Bootstrap -->
+\t\t<link
+\t\trel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\">
+\t\t<!-- importer la bibliothèque jQuery -->
+\t\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>
+\t\t<!-- importer la bibliothèque Popper.js -->
+\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js\"></script>
+\t\t<!-- importer la bibliothèque Bootstrap -->
+\t\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>
+\t\t<link href=\"";
+        // line 15
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style/fooTer.css"), "html", null, true);
         echo "\" type=\"text/css\" rel=\"stylesheet\">
-</head>
+\t</head>
 
 \t<footer class=\"container-fluid\">
 \t\t<div class=\"row\">
 \t\t\t<div class=\"col-md-4\">
 \t\t\t\t<img class=\"logo2\" src=\"img/Logo.png\" alt=\"logo\">
-\t\t\t\t<span class=\"slogan\">
-\t\t\t\t\tLessivez, rencontrez, et pédalez
-\t\t\t\t</span>
+\t\t\t\t<span class=\"slogan\">Lessivez, rencontrez, et pédalez</span>
 \t\t\t</div>
-\t\t\t<div class=\"col-md-4\">
-\t\t\t\t<span class=\"title-news\">
-\t\t\t\t\tVenez suivre nos aventures
-\t\t\t\t</span>
-\t\t\t\t<div class=\"newsletter\">
-\t\t\t\t\t<form>
-\t\t\t\t\t\t<div class=\"form-group\">
-\t\t\t\t\t\t\t<input type=\"email\" class=\"form-control\" placeholder=\"Saisissez votre e-mail\" required>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Envoyer</button>
-\t\t\t\t\t</form>
+\t\t\t<div class=\"col-md-5\">
+\t\t\t\t<span class=\"title-news\">Venez suivre nos aventures</span>
+\t\t\t\t<div class=\"input-group mb-3\">
+\t\t\t\t\t<input type=\"email\" class=\"form-control\" placeholder=\"Saisissez votre e-mail\" required>
+\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Envoyer</button>
 \t\t\t\t</div>
 \t\t\t</div>
-\t\t\t<div class=\"col-md-4\">
-\t\t\t\t<div class=\"service-zone\">
-\t\t\t\t\t<span class=\"service\">Service</span>\t\t
-\t\t\t\t\t<a class=\"about-foot\" href=\"/\">À Propos</a>
-\t\t\t\t\t<a class=\"contactt\" href=\"/\">Nous contacter</a>
-\t\t\t\t\t<a class=\"private\" href=\"/\">Thermes et Conditions</a>
-\t\t\t\t</div>
+\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<span class=\"service\">Service</span>
+\t\t\t\t<ul class=\"list-unstyled\">
+\t\t\t\t\t<li>
+\t\t\t\t\t\t<a class=\"about-foot\" href=\"/\">À Propos</a>
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\t<a class=\"contactt\" href=\"/\">Nous contacter</a>
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\t<a class=\"private\" href=\"/\">Thermes et Conditions</a>
+\t\t\t\t\t</li>
+\t\t\t\t</ul>
 \t\t\t\t<div class=\"social-network\">
 \t\t\t\t\t<span class=\"label-social\">Suivez nous sur</span>
 \t\t\t\t\t<img class=\"logo3\" src=\"img/instagram.png\" alt=\"logo\">
@@ -95,7 +95,8 @@ class __TwigTemplate_61cf85c0ad8b23efcdf7c8c8a64112f5 extends Template
 \t\t\t</div>
 \t\t</div>
 \t</footer>
-</html>";
+</html>
+";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
 
@@ -116,54 +117,54 @@ class __TwigTemplate_61cf85c0ad8b23efcdf7c8c8a64112f5 extends Template
 
     public function getDebugInfo()
     {
-        return array (  57 => 13,  43 => 1,);
+        return array (  59 => 15,  43 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!DOCTYPE html>
 <html lang=\"en\">
-<head>
-\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-\t<!-- importer la bibliothèque Bootstrap -->
-\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\">
-\t<!-- importer la bibliothèque jQuery -->
-\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>
-\t<!-- importer la bibliothèque Popper.js -->
-\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js\"></script>
-\t<!-- importer la bibliothèque Bootstrap -->
-\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>
-\t<link href=\"{{ asset('style/fooTer.css') }}\" type=\"text/css\" rel=\"stylesheet\">
-</head>
+\t<head>
+\t\t<meta
+\t\tname=\"viewport\" content=\"width=device-width, initial-scale=1\">
+\t\t<!-- importer la bibliothèque Bootstrap -->
+\t\t<link
+\t\trel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\">
+\t\t<!-- importer la bibliothèque jQuery -->
+\t\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>
+\t\t<!-- importer la bibliothèque Popper.js -->
+\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js\"></script>
+\t\t<!-- importer la bibliothèque Bootstrap -->
+\t\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>
+\t\t<link href=\"{{ asset('style/fooTer.css') }}\" type=\"text/css\" rel=\"stylesheet\">
+\t</head>
 
 \t<footer class=\"container-fluid\">
 \t\t<div class=\"row\">
 \t\t\t<div class=\"col-md-4\">
 \t\t\t\t<img class=\"logo2\" src=\"img/Logo.png\" alt=\"logo\">
-\t\t\t\t<span class=\"slogan\">
-\t\t\t\t\tLessivez, rencontrez, et pédalez
-\t\t\t\t</span>
+\t\t\t\t<span class=\"slogan\">Lessivez, rencontrez, et pédalez</span>
 \t\t\t</div>
-\t\t\t<div class=\"col-md-4\">
-\t\t\t\t<span class=\"title-news\">
-\t\t\t\t\tVenez suivre nos aventures
-\t\t\t\t</span>
-\t\t\t\t<div class=\"newsletter\">
-\t\t\t\t\t<form>
-\t\t\t\t\t\t<div class=\"form-group\">
-\t\t\t\t\t\t\t<input type=\"email\" class=\"form-control\" placeholder=\"Saisissez votre e-mail\" required>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Envoyer</button>
-\t\t\t\t\t</form>
+\t\t\t<div class=\"col-md-5\">
+\t\t\t\t<span class=\"title-news\">Venez suivre nos aventures</span>
+\t\t\t\t<div class=\"input-group mb-3\">
+\t\t\t\t\t<input type=\"email\" class=\"form-control\" placeholder=\"Saisissez votre e-mail\" required>
+\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Envoyer</button>
 \t\t\t\t</div>
 \t\t\t</div>
-\t\t\t<div class=\"col-md-4\">
-\t\t\t\t<div class=\"service-zone\">
-\t\t\t\t\t<span class=\"service\">Service</span>\t\t
-\t\t\t\t\t<a class=\"about-foot\" href=\"/\">À Propos</a>
-\t\t\t\t\t<a class=\"contactt\" href=\"/\">Nous contacter</a>
-\t\t\t\t\t<a class=\"private\" href=\"/\">Thermes et Conditions</a>
-\t\t\t\t</div>
+\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<span class=\"service\">Service</span>
+\t\t\t\t<ul class=\"list-unstyled\">
+\t\t\t\t\t<li>
+\t\t\t\t\t\t<a class=\"about-foot\" href=\"/\">À Propos</a>
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\t<a class=\"contactt\" href=\"/\">Nous contacter</a>
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\t<a class=\"private\" href=\"/\">Thermes et Conditions</a>
+\t\t\t\t\t</li>
+\t\t\t\t</ul>
 \t\t\t\t<div class=\"social-network\">
 \t\t\t\t\t<span class=\"label-social\">Suivez nous sur</span>
 \t\t\t\t\t<img class=\"logo3\" src=\"img/instagram.png\" alt=\"logo\">
@@ -173,6 +174,7 @@ class __TwigTemplate_61cf85c0ad8b23efcdf7c8c8a64112f5 extends Template
 \t\t\t</div>
 \t\t</div>
 \t</footer>
-</html>", "fooTer.html.twig", "C:\\Web2\\WashandWatt\\templates\\fooTer.html.twig");
+</html>
+", "fooTer.html.twig", "C:\\Web2\\WashandWatt\\templates\\fooTer.html.twig");
     }
 }

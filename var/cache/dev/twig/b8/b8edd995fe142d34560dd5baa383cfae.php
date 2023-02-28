@@ -43,22 +43,23 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
         echo "<!DOCTYPE html>
 <html lang=\"en\">
 \t<head>
-\t\t<link href=\"";
-        // line 4
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style/partnerPage.css"), "html", null, true);
-        echo "\" type=\"text/css\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Poppins&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-\t\t";
-        // line 7
-        $this->loadTemplate("navBar.html.twig", "v_partnerPage.html.twig", 7)->display($context);
-        // line 8
-        echo "\t\t";
-        $this->loadTemplate("fooTer.html.twig", "v_partnerPage.html.twig", 8)->display($context);
-        // line 9
-        echo "\t\t<title>WashandWatt</title>
+\t\t<link href=\"";
+        // line 6
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style/partnerPage.css"), "html", null, true);
+        echo "\" type=\"text/css\" rel=\"stylesheet\">
+
+\t\t<title>WashandWatt</title>
 \t</head>
 \t<body>
+\t\t<header>
+\t\t\t";
+        // line 12
+        $this->loadTemplate("navBar.html.twig", "v_partnerPage.html.twig", 12)->display($context);
+        // line 13
+        echo "\t\t</header>
+
 \t\t<main>
 \t\t\t<h1>
 \t\t\t\t<span class=\"title-partner\">Nos Partenaires</span>
@@ -72,50 +73,24 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<span class=\"text-description\">Nous sommes reconnaissants pour le soutien de nos partenaires qui nous permettent de continuer dans cette aventure</span>
-\t\t\t<div class=\"cards2\"></div>
 \t\t\t<div class=\"cards-container\">
 \t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 1\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 2\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 3\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 4\">
-\t\t\t\t\t<h3>Instagram 4</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 5\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 6\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
+\t\t\t\t\t<img src=\"img/H24.png\" alt=\"Logo 1\">
+\t\t\t\t\t<h3>Incubateur H24</h3>
+\t\t\t\t\t<a href=\"https://www.incubateur-h24.fr\" target=\"_blank\">
+\t\t\t\t\t\t<p>🌐\twww.incubateur-h24.fr</p>
+\t\t\t\t\t</a>
+\t\t\t\t\t<p>📞\t05 53 07 58 78</p>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</main>
+
+\t\t<footer>
+\t\t\t";
+        // line 41
+        $this->loadTemplate("fooTer.html.twig", "v_partnerPage.html.twig", 41)->display($context);
+        // line 42
+        echo "\t\t</footer>
 \t</body>
 </html>
 ";
@@ -139,7 +114,7 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 
     public function getDebugInfo()
     {
-        return array (  59 => 9,  56 => 8,  54 => 7,  48 => 4,  43 => 1,);
+        return array (  93 => 42,  91 => 41,  61 => 13,  59 => 12,  50 => 6,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -147,14 +122,17 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
         return new Source("<!DOCTYPE html>
 <html lang=\"en\">
 \t<head>
-\t\t<link href=\"{{ asset('style/partnerPage.css') }}\" type=\"text/css\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Poppins&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-\t\t{% include 'navBar.html.twig' %}
-\t\t{% include 'fooTer.html.twig' %}
+\t\t<link href=\"{{ asset('style/partnerPage.css') }}\" type=\"text/css\" rel=\"stylesheet\">
+
 \t\t<title>WashandWatt</title>
 \t</head>
 \t<body>
+\t\t<header>
+\t\t\t{% include 'navBar.html.twig' %}
+\t\t</header>
+
 \t\t<main>
 \t\t\t<h1>
 \t\t\t\t<span class=\"title-partner\">Nos Partenaires</span>
@@ -168,50 +146,21 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<span class=\"text-description\">Nous sommes reconnaissants pour le soutien de nos partenaires qui nous permettent de continuer dans cette aventure</span>
-\t\t\t<div class=\"cards2\"></div>
 \t\t\t<div class=\"cards-container\">
 \t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 1\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 2\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 3\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 4\">
-\t\t\t\t\t<h3>Instagram 4</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 5\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
-
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<img src=\"img/instagram.png\" alt=\"Logo 6\">
-\t\t\t\t\t<h3>Instagram</h3>
-\t\t\t\t\t<p>🌐\tInstagram.com</p>
-\t\t\t\t\t<p>📞\t0606060606</p>
+\t\t\t\t\t<img src=\"img/H24.png\" alt=\"Logo 1\">
+\t\t\t\t\t<h3>Incubateur H24</h3>
+\t\t\t\t\t<a href=\"https://www.incubateur-h24.fr\" target=\"_blank\">
+\t\t\t\t\t\t<p>🌐\twww.incubateur-h24.fr</p>
+\t\t\t\t\t</a>
+\t\t\t\t\t<p>📞\t05 53 07 58 78</p>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</main>
+
+\t\t<footer>
+\t\t\t{% include 'fooTer.html.twig' %}
+\t\t</footer>
 \t</body>
 </html>
 ", "v_partnerPage.html.twig", "C:\\Web2\\WashandWatt\\templates\\v_partnerPage.html.twig");
