@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Accueil</title>
+
+		<!-- Inclure les fichiers CSS -->
+		<link rel="stylesheet" href="{{ asset('style/homePage.css') }}">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+		<link
+		rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+		<!-- Inclure les scripts JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		{% include 'navBar.html.twig' %}
+
+		<h1 class="home-title">
+			Lessivez, rencontrez et pédalez
+		</h1>
+
+		<img class="personnage" src="img/personnage.png" alt="personnage">
+		<img class="washmachine" src="img/washmachine.png" alt="washmachine">
+
+		<div class="container">
+			<h1 class="text-center">Notre laverie</h1>
+			<p class="text-center">La première laverie réservée aux étudiants pour se rencontrer, contribuer au développement durable, et faire du sport. Laver, pédaler, et créer de l’énergie dans un lieu inédit favorisant les interactions sociales.</p>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/washmachine2.png" class="img-fluid" alt="washmachine2">
+				</div>
+				<div class="col-sm-4">
+					<img src="img/washmachine3.png" class="img-fluid" alt="washmachine3">
+				</div>
+				<div class="col-sm-4">
+					<img src="img/washmachine4.png" class="img-fluid" alt="washmachine4">
+				</div>
+			</div>
+		</div>
+		<div class="bandeau">
+			<h1>Un lieu de vie pour les étudiants</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<img src="chemin/vers/image1.jpg" alt="Image 1">
+			</div>
+			<div class="col-md-3">
+				<img src="chemin/vers/image2.jpg" alt="Image 2">
+			</div>
+			<div class="col-md-3">
+				<img src="chemin/vers/image3.jpg" alt="Image 3">
+			</div>
+			<div class="col-md-3">
+				<img src="chemin/vers/image4.jpg" alt="Image 4">
+			</div>
+		</div>
+
+		<div class="bandeau2">
+			<h1>Avantages</h1>
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<img src="image1.jpg" class="img-fluid">
+					<h3>Sociale</h3>
+					<p>Possibilité de faire des rencontres 
+Participation à des activités étudiants 
+</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<img src="image2.jpg" class="img-fluid">
+					<h3>Sécurisé</h3>
+					<p>Seul les membres peuvent y accéder grâce à une carte magnétique. De plus;la laverie possède plusieurs caméras de surveillance.</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<img src="image3.jpg" class="img-fluid">
+					<h3>Équipement</h3>
+					<p>machines à café, snacks et boissons dédiés à la pratique sportive ainsi que la mise à disposition de casiers individuels de rangement</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<img src="image4.jpg" class="img-fluid">
+					<h3>Gratuit</h3>
+					<p>Aucuns frais juste l’obligation de pratiquer 30 minutes de sport par semaine et de participer aux évènements proposés par les partenaires Wash&Watt</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<img src="image5.jpg" class="img-fluid">
+					<h3>Géocalisation</h3>
+					<p>Situé en plein centre de Toulouse. </p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<img src="image6.jpg" class="img-fluid">
+					<h3>Écologie</h3>
+					<p>Les vélos électriques alimentent la laverie, pour réduire notre impact énergétique sur la planète</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h2 class="text-center">Titre sous le bandeau</h2>
+			<p class="text-center">Description du titre sous le bandeau</p>
+		</div>
+
+	</body>
+
+
+
+</html>

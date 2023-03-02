@@ -1,5 +1,10 @@
 # config/routes.yaml
 # the "app_lucky_number" route name is not important yet
+
 app_home:
- path: /home
- controller: App\Controller\Home::number
+ path: /
+ controller: App\Controller\c_homePage::index
+
+app_partner:
+ path: /partner
+ controller: App\Controller\c_partnerPage::index

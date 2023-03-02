@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.body {
+  text-align: center;
+}
+
+.home-title {
+  color: rgba(5.000000176951289, 68.00000354647636, 87.00000241398811, 1);
+  width: 450px;
+  font-family: Rubik;
+  font-size: 41.528324127197266px;
+  letter-spacing: 0.25;
+  text-align: left;
+  margin-left: 2%;
+  padding-top: 1%;
+}
+
+.personnage {
+  width: 800px;
+  margin-left: -100px;
+}
+
+.washmachine {
+  width: 500px;
+  height: auto;
+  border-radius: 25px;
+  margin-left: 50%;
+  margin-top: -30%;
+  margin-bottom: 5%;
+}
+
+.bandeau {
+  background-color: rgb(240, 234, 234);
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.bandeau2 {
+  background-color: rgb(240, 234, 234);
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  margin-top: 25%;
+  margin-bottom: 5%;
+}
+
+.col-md-3 {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
