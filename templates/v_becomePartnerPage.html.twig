@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+		<link href="{{ asset('style/becomePartnerPage.css') }}" type="text/css" rel="stylesheet">
+
+		<title>WashandWatt</title>
+	</head>
+	<body>
+		<header>
+			{% include 'navBar.html.twig' %}
+		</header>
+
+		<main>
+			<h1>
+				<span class="title-partner">Devenons Partenaires</span>
+			</h1>
+			<div class="bar-partner"></div>
+			<div class="button">
+				<div class="button2">
+					<a href="#contact">
+						<button class="become-partner" type="button">Devenir Partenaire</button>
+					</a>
+				</div>
+			</div>
+			<span class="text-description">Bienvenue sur notre page devenir partenaire ! Nous sommes ravis que vous soyez intéressé par la possibilité de travailler avec nous.</span>
+			<h2 class="title-avantage">
+				<span class="title-avantage">Avantage</span>
+			</h2>
+			<div class="container">
+				<div class="box">
+					<img src="img/visibilite.png" alt="Image 1">
+					<div class="bar-partners"></div>
+					<h3>La visibilité</h3>
+					<p>Une visibilité sur notre mur des partenaires dans la salle mais aussi sur notre site</p>
+				</div>
+				<div class="box">
+					<img src="img/image-de-marque.png" alt="Image 2">
+					<div class="bar-partners"></div>
+					<h3>Une image de marque</h3>
+					<p>Une reconnaissance et une valorisation de la marque
+					</p>
+				</div>
+				<div class="box">
+					<img src="img/etudiant.png" alt="Image 3">
+					<div class="bar-partners"></div>
+					<h3>Les étudiants</h3>
+					<p>Les étudiants sont souvent très actifs sur les réseaux sociaux et peuvent fournir des feedbacks et des suggestions précieux pour améliorer les produits et services de l'entreprise</p>
+				</div>
+			</div>
+			<div class="containers">
+				<div class="card">
+					<h2>Pack 1</h2>
+					<p>mur des partenaires</p>
+					<p>participations aux soirées partenaires</p>
+					<p>actions R.H</p>
+				</div>
+				<div class="card">
+					<h2>Pack 2</h2>
+					<p>mur des partenaires</p>
+					<p>accueil & participations aux soirées partenaires</p>
+					<p>actions R.H</p>
+					<p>opérations commerciales</p>
+				</div>
+			</div>
+			<h2 class="title-avantage"  id="contact">
+				<span class="title-partners">Devenez nos partenaires</span>
+			</h2>
+			<form method="post">
+				<label>
+					<input type="text" name="entreprise" placeholder="Nom de l'entreprise">
+				</label>
+
+				<label>
+					<input type="email" name="email" placeholder="Email">
+				</label>
+
+				<label>
+					<textarea name="message" placeholder="Message"></textarea>
+				</label>
+
+				<input type="submit" value="Envoyer">
+				<script></script>
+			</form>
+		</main>
+
+		<footer>
+			{% include 'v_fooTer.html.twig' %}
+		</footer>
+	</body>
+</html>

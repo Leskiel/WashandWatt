@@ -7,3 +7,7 @@ app_home:
 app_partner:
  path: /partenaires
  controller: App\Controller\c_partnerPage::index
+
+app_becomepartner:
+ path: /collaborer
+ controller: App\Controller\c_becomePartnerPage::index

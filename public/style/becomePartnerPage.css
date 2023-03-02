@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+main {
+  position: relative;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.title-partner {
+  color: #054457;
+  width: 334px;
+  font-family: Rubik;
+  font-size: 40px;
+  letter-spacing: 0.25;
+}
+.bar-partner {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 450px;
+  border-radius: 50px;
+  border: 3px solid #06988d;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-description {
+  color: rgba(115.00000074505806, 120.00000044703484, 140.00000685453415, 1);
+  width: 859px;
+  height: 34px;
+  font-family: Poppins;
+  font-size: 15px;
+}
+.become-partner {
+  color: white;
+  background-color: #06988d;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 229px;
+  height: 47px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 0px;
+  margin: 3%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+.box img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.box h3 {
+  font-size: 25px;
+  margin-bottom: 10%;
+  font-family: Rubik;
+  padding-top: 2%;
+  /*text-decoration: overline;
+  text-decoration-color: #06988d;*/
+
+}
+
+
+.box p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+
+.title-avantage {
+  color: #054457;
+  width: 334px;
+  font-family: Rubik;
+  font-size: 40px;
+  letter-spacing: 0.25;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 55vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666666;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+}
+.bar-partners {
+  width: 200px;
+  border-radius: 50px;
+  border: 2px solid #06988d;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card:hover h2 {
+  color: #06988d; /* changer la couleur en rouge */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 1%;
+}
+
+input[type="text"], input[type="email"],textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="text"]:focus, textarea:focus {
+  border-bottom: 2px solid #06988d;
+}
+
+button {
+  background-color: #06988d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #047d6b;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+form textarea {
+  height: 200px;
+  resize: none;
+}
+
+form button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #06988d;
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #056f64;
+}
+
+.title-partners{
+  color: #054457;
+  width: 334px;
+  font-family: Rubik;
+  font-size: 40px;
+  letter-spacing: 0.25;
+}
