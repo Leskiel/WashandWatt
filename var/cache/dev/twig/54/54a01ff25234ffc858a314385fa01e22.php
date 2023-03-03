@@ -50,7 +50,7 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style/becomePartnerPage.css"), "html", null, true);
         echo "\" type=\"text/css\" rel=\"stylesheet\">
 
-\t\t<title>WashandWatt</title>
+\t\t<title>Wash&Watt</title>
 \t</head>
 \t<body>
 \t\t<header>
@@ -98,21 +98,27 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<div class=\"containers\">
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<h2>Pack 1</h2>
-\t\t\t\t\t<p>mur des partenaires</p>
-\t\t\t\t\t<p>participations aux soirées partenaires</p>
-\t\t\t\t\t<p>actions R.H</p>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<h2>Pack 2</h2>
-\t\t\t\t\t<p>mur des partenaires</p>
-\t\t\t\t\t<p>accueil & participations aux soirées partenaires</p>
-\t\t\t\t\t<p>actions R.H</p>
-\t\t\t\t\t<p>opérations commerciales</p>
+\t\t\t\t<div class=\"row justify-content-center\">
+\t\t\t\t\t<div class=\"col-sm-6 col-md-4 mb-4\">
+\t\t\t\t\t\t<div class=\"card\">
+\t\t\t\t\t\t\t<h2>Pack 1</h2>
+\t\t\t\t\t\t\t<p>mur des partenaires</p>
+\t\t\t\t\t\t\t<p>participations aux soirées partenaires</p>
+\t\t\t\t\t\t\t<p>actions R.H</p>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-sm-6 col-md-4 mb-4\">
+\t\t\t\t\t\t<div class=\"card\">
+\t\t\t\t\t\t\t<h2>Pack 2</h2>
+\t\t\t\t\t\t\t<p>mur des partenaires</p>
+\t\t\t\t\t\t\t<p>accueil & participations aux soirées partenaires</p>
+\t\t\t\t\t\t\t<p>actions R.H</p>
+\t\t\t\t\t\t\t<p>opérations commerciales</p>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
-\t\t\t<h2 class=\"title-avantage\"  id=\"contact\">
+\t\t\t<h2 class=\"title-avantage\" id=\"contact\">
 \t\t\t\t<span class=\"title-partners\">Devenez nos partenaires</span>
 \t\t\t</h2>
 \t\t\t<form method=\"post\">
@@ -135,9 +141,9 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 
 \t\t<footer>
 \t\t\t";
-        // line 89
-        $this->loadTemplate("v_fooTer.html.twig", "v_becomePartnerPage.html.twig", 89)->display($context);
-        // line 90
+        // line 95
+        $this->loadTemplate("v_footer.html.twig", "v_becomePartnerPage.html.twig", 95)->display($context);
+        // line 96
         echo "\t\t</footer>
 \t</body>
 </html>
@@ -162,7 +168,7 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 
     public function getDebugInfo()
     {
-        return array (  141 => 90,  139 => 89,  61 => 13,  59 => 12,  50 => 6,  43 => 1,);
+        return array (  147 => 96,  145 => 95,  61 => 13,  59 => 12,  50 => 6,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -174,7 +180,7 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"{{ asset('style/becomePartnerPage.css') }}\" type=\"text/css\" rel=\"stylesheet\">
 
-\t\t<title>WashandWatt</title>
+\t\t<title>Wash&Watt</title>
 \t</head>
 \t<body>
 \t\t<header>
@@ -219,21 +225,27 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<div class=\"containers\">
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<h2>Pack 1</h2>
-\t\t\t\t\t<p>mur des partenaires</p>
-\t\t\t\t\t<p>participations aux soirées partenaires</p>
-\t\t\t\t\t<p>actions R.H</p>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"card\">
-\t\t\t\t\t<h2>Pack 2</h2>
-\t\t\t\t\t<p>mur des partenaires</p>
-\t\t\t\t\t<p>accueil & participations aux soirées partenaires</p>
-\t\t\t\t\t<p>actions R.H</p>
-\t\t\t\t\t<p>opérations commerciales</p>
+\t\t\t\t<div class=\"row justify-content-center\">
+\t\t\t\t\t<div class=\"col-sm-6 col-md-4 mb-4\">
+\t\t\t\t\t\t<div class=\"card\">
+\t\t\t\t\t\t\t<h2>Pack 1</h2>
+\t\t\t\t\t\t\t<p>mur des partenaires</p>
+\t\t\t\t\t\t\t<p>participations aux soirées partenaires</p>
+\t\t\t\t\t\t\t<p>actions R.H</p>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-sm-6 col-md-4 mb-4\">
+\t\t\t\t\t\t<div class=\"card\">
+\t\t\t\t\t\t\t<h2>Pack 2</h2>
+\t\t\t\t\t\t\t<p>mur des partenaires</p>
+\t\t\t\t\t\t\t<p>accueil & participations aux soirées partenaires</p>
+\t\t\t\t\t\t\t<p>actions R.H</p>
+\t\t\t\t\t\t\t<p>opérations commerciales</p>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
-\t\t\t<h2 class=\"title-avantage\"  id=\"contact\">
+\t\t\t<h2 class=\"title-avantage\" id=\"contact\">
 \t\t\t\t<span class=\"title-partners\">Devenez nos partenaires</span>
 \t\t\t</h2>
 \t\t\t<form method=\"post\">
@@ -255,7 +267,7 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 \t\t</main>
 
 \t\t<footer>
-\t\t\t{% include 'v_fooTer.html.twig' %}
+\t\t\t{% include 'v_footer.html.twig' %}
 \t\t</footer>
 \t</body>
 </html>

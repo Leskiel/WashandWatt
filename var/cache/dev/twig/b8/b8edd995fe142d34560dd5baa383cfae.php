@@ -50,7 +50,7 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style/partnerPage.css"), "html", null, true);
         echo "\" type=\"text/css\" rel=\"stylesheet\">
 
-\t\t<title>WashandWatt</title>
+\t\t<title>Wash&Watt</title>
 \t</head>
 \t<body>
 \t\t<header>
@@ -88,7 +88,7 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 \t\t<footer>
 \t\t\t";
         // line 41
-        $this->loadTemplate("v_fooTer.html.twig", "v_partnerPage.html.twig", 41)->display($context);
+        $this->loadTemplate("v_footer.html.twig", "v_partnerPage.html.twig", 41)->display($context);
         // line 42
         echo "\t\t</footer>
 \t</body>
@@ -126,7 +126,7 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"{{ asset('style/partnerPage.css') }}\" type=\"text/css\" rel=\"stylesheet\">
 
-\t\t<title>WashandWatt</title>
+\t\t<title>Wash&Watt</title>
 \t</head>
 \t<body>
 \t\t<header>
@@ -159,7 +159,7 @@ class __TwigTemplate_45b7e5d7b1f681eb652137a1a3863560 extends Template
 \t\t</main>
 
 \t\t<footer>
-\t\t\t{% include 'v_fooTer.html.twig' %}
+\t\t\t{% include 'v_footer.html.twig' %}
 \t\t</footer>
 \t</body>
 </html>

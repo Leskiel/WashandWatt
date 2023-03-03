@@ -5,7 +5,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 		<link href="{{ asset('style/becomePartnerPage.css') }}" type="text/css" rel="stylesheet">
 
-		<title>WashandWatt</title>
+		<title>Wash&Watt</title>
 	</head>
 	<body>
 		<header>
@@ -50,21 +50,27 @@
 				</div>
 			</div>
 			<div class="containers">
-				<div class="card">
-					<h2>Pack 1</h2>
-					<p>mur des partenaires</p>
-					<p>participations aux soirées partenaires</p>
-					<p>actions R.H</p>
-				</div>
-				<div class="card">
-					<h2>Pack 2</h2>
-					<p>mur des partenaires</p>
-					<p>accueil & participations aux soirées partenaires</p>
-					<p>actions R.H</p>
-					<p>opérations commerciales</p>
+				<div class="row justify-content-center">
+					<div class="col-sm-6 col-md-4 mb-4">
+						<div class="card">
+							<h2>Pack 1</h2>
+							<p>mur des partenaires</p>
+							<p>participations aux soirées partenaires</p>
+							<p>actions R.H</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 mb-4">
+						<div class="card">
+							<h2>Pack 2</h2>
+							<p>mur des partenaires</p>
+							<p>accueil & participations aux soirées partenaires</p>
+							<p>actions R.H</p>
+							<p>opérations commerciales</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<h2 class="title-avantage"  id="contact">
+			<h2 class="title-avantage" id="contact">
 				<span class="title-partners">Devenez nos partenaires</span>
 			</h2>
 			<form method="post">
@@ -86,7 +92,7 @@
 		</main>
 
 		<footer>
-			{% include 'v_fooTer.html.twig' %}
+			{% include 'v_footer.html.twig' %}
 		</footer>
 	</body>
 </html>

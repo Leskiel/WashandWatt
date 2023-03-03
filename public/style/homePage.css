@@ -1,86 +1,130 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
-* {
-  box-sizing: border-box;
+.body {
+  text-align: center;
 }
 
-body {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+.home-title {
+  color: rgba(5.000000176951289, 68.00000354647636, 87.00000241398811, 1);
+  font-family: Rubik;
+  width: 450px;
+  font-size: 41.528324127197266px;
+  letter-spacing: 0.25;
+  text-align: center;
+  padding: 2%;
+}
 
+.image-home {
   display: flex;
+  justify-content: space-between; /* espace à gauche et à droite */
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  padding-top: 2%;
+}
+.image-home img {
+  width: 40%; /* ajuster la largeur des images */
+  object-fit: cover; /* afficher les images de manière proportionnelle */
+}
 
-  min-height: 100vh;
-  font-family: "Lato", sans-serif;
+.personnage {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.washmachine {
+  width: 400px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  padding-top: 3%;
+  color: rgba(5.000000176951289, 68.00000354647636, 87.00000241398811, 1);
+  font-family: Rubik;
+}
+
+.container {
+  padding: 5%;
+}
+
+.bandeau {
+  background-color: #f8f9fa;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  justify-content: center;
+  color: rgba(5.000000176951289, 68.00000354647636, 87.00000241398811, 1);
+  font-family: Rubik;
+}
+
+.image-icon {
+  padding: 6%;
+  width: 30%;
+}
+
+.bandeau2 {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.bandeau2 h1 {
+  color: rgba(5.000000176951289, 68.00000354647636, 87.00000241398811, 1);
+  font-family: Rubik;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.inscription {
+  padding: 60px 0;
+}
+
+.containers {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+ol {
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
-h1 {
-  letter-spacing: 2px;
-  text-align: center;
-  text-transform: uppercase;
+li {
+  margin-bottom: 60px;
 }
 
-.countdown-wrapper {
+.step {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
-.countdown-item {
-  color: #111;
-  font-size: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  line-height: 30px;
-  margin: 10px;
-  padding-top: 10px;
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-
-.countdown-item span {
-  color: #333;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.countdown-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
-}
-
-footer {
-  background-color: #222;
+.step-number {
+  background-color: #06988d;
   color: #fff;
-  font-size: 14px;
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 999;
+  font-size: 24px;
+  font-weight: 700;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
 }
 
-footer p {
-  margin: 10px 0;
+.step-description {
+  flex: 1;
 }
 
-footer i {
-  color: red;
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-footer a {
-  color: #3c97bf;
-  text-decoration: none;
+p {
+  font-size: 18px;
+  line-height: 1.5;
 }

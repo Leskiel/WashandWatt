@@ -77,13 +77,10 @@ class __TwigTemplate_626632ac774f12d8d0df4e79cd332bcc extends Template
 \t\t\t\t<span class=\"service\">Service</span>
 \t\t\t\t<ul class=\"list-unstyled\">
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a class=\"about-foot\" href=\"/\">À Propos</a>
-\t\t\t\t\t</li>
-\t\t\t\t\t<li>
 \t\t\t\t\t\t<a class=\"contactt\" href=\"/\">Nous contacter</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a class=\"private\" href=\"/\">Thermes et Conditions</a>
+\t\t\t\t\t\t<a class=\"private\" href=\"/mentionlegale\">Mentions Légales</a>
 \t\t\t\t\t</li>
 \t\t\t\t</ul>
 \t\t\t\t<div class=\"social-network\">
@@ -156,13 +153,10 @@ class __TwigTemplate_626632ac774f12d8d0df4e79cd332bcc extends Template
 \t\t\t\t<span class=\"service\">Service</span>
 \t\t\t\t<ul class=\"list-unstyled\">
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a class=\"about-foot\" href=\"/\">À Propos</a>
-\t\t\t\t\t</li>
-\t\t\t\t\t<li>
 \t\t\t\t\t\t<a class=\"contactt\" href=\"/\">Nous contacter</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a class=\"private\" href=\"/\">Thermes et Conditions</a>
+\t\t\t\t\t\t<a class=\"private\" href=\"/mentionlegale\">Mentions Légales</a>
 \t\t\t\t\t</li>
 \t\t\t\t</ul>
 \t\t\t\t<div class=\"social-network\">

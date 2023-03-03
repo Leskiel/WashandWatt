@@ -11,3 +11,7 @@ app_partner:
 app_becomepartner:
  path: /collaborer
  controller: App\Controller\c_becomePartnerPage::index
+
+app_legalnotice:
+ path: /mention
+ controller: App\Controller\c_legalNoticePage::index

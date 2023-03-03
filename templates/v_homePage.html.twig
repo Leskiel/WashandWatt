@@ -1,20 +1,153 @@
-<link href="{{ asset('style/homePage.css') }}" type="text/css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Wash</title>
 
-	<div class="e101_1461">
-		<a href="/" class="e101_1471">Accueil</a>
-		<a href="/partenaires" class="e101_1473">Nos Partenaires</a>
-		<a href="/apropos" class="e101_1474">À Propos</a>
-		<a href="/inscription" class="e101_1479">
-			<span class="e101_1480">Inscription</span>
-		</a>
-		<a href="/connexion" class="e101_1477">
-			<span class="e101_1478">Connexion</span>
-		</a>
-	</div>
+		<!-- Inclure les fichiers CSS -->
+		<link rel="stylesheet" href="{{ asset('style/homePage.css') }}">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+		<link
+		rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+		<!-- Inclure les scripts JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<header>
+			{% include 'navBar.html.twig' %}
+		</header>
+
+		<h1 class="text-center">
+			<span class="home-title">Lessivez, rencontrez et pédalez</span>
+		</h1>
+		<div class="image-home">
+			<img class="personnage" src="img/personnage.png" alt="personnage">
+			<img class="washmachine" src="img/washmachine.png" alt="washmachine">
+		</div>
 
 
+		<div class="container">
+			<h1 class="text-center">Notre laverie</h1>
+			<p class="text-center">La première laverie réservée aux étudiants pour se rencontrer, contribuer au développement durable, et faire du sport. Laver, pédaler, et créer de l’énergie dans un lieu inédit favorisant les interactions sociales.</p>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/washmachine2.png" class="img-fluid" alt="washmachine2">
+				</div>
+				<div class="col-sm-4">
+					<img src="img/washmachine3.png" class="img-fluid" alt="washmachine3">
+				</div>
+				<div class="col-sm-4">
+					<img src="img/washmachine4.png" class="img-fluid" alt="washmachine4">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="bandeau">
+			<h1>Un lieu de vie pour les étudiants</h1>
+		</div>
+
+		<!--
+				<div class="row">
+					<div class="col-md-4 col-sm-6 mb-3">
+						<img src="img/etudiant_diplome_1.png" class="image-icon img-fluid" alt="Etudiant diplome">
+					</div>
+					<div class="col-md-4 col-sm-6 mb-3">
+						<img src="img/horloge_murale_1.png" class="image-icon img-fluid" alt="Horloge murale">
+					</div>
+					<div class="col-md-4 col-sm-6 mb-3">
+						<img src="img/laverie_2_1.png" class="image-icon img-fluid" alt="Laverie">
+					</div>
+				</div>
+		-->
+		<section class="inscription">
+			<div class="containers">
+				<ol>
+					<li>
+						<div class="step">
+							<div class="step-number">1</div>
+							<div class="step-description">
+								<h3>Créez un compte</h3>
+								<p>Cliquez sur le bouton "Inscription" en haut à droite de la page et remplissez le formulaire d'inscription en indiquant votre nom, votre adresse e-mail et votre mot de passe.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="step">
+							<div class="step-number">2</div>
+							<div class="step-description">
+								<h3>Vérifiez votre adresse e-mail</h3>
+								<p>Nous vous enverrons un e-mail de vérification. Cliquez sur le lien dans l'e-mail pour activer votre compte.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="step">
+							<div class="step-number">3</div>
+							<div class="step-description">
+								<h3>Connectez-vous</h3>
+								<p>Entrez votre adresse e-mail et votre mot de passe sur la page de connexion pour accéder à votre compte.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="step">
+							<div class="step-number">4</div>
+							<div class="step-description">
+								<h3>Complétez votre profil</h3>
+								<p>Une fois connecté, complétez votre profil en ajoutant des informations sur vous-même, votre entreprise ou vos centres d'intérêt.</p>
+							</div>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<div class="bandeau2 row">
+			<h1 class="col-12">Avantages</h1>
+			<div class="image1 col-md-4 col-sm-6">
+				<img src="img/social.png" class="img">
+				<h3>Sociale</h3>
+				<p>Possibilité de faire des rencontres
+					<br>
+					Participation à des activités étudiant</p>
+			</div>
+			<div class="image2 col-md-4 col-sm-6">
+				<img src="img/securite.png" class="img">
+				<h3>Sécurisé</h3>
+				<p>Seul les membres peuvent y accéder grâce à une carte magnétique. De plus la laverie possède plusieurs caméras de surveillance.</p>
+			</div>
+			<div class="image3 col-md-4 col-sm-6">
+				<img src="img/equipement.png" class="img">
+				<h3>Équipement</h3>
+				<p>machines à café, snacks et boissons dédiés à la pratique sportive ainsi que la mise à disposition de casiers individuels de rangement</p>
+			</div>
+			<div class="image4 col-md-4 col-sm-6">
+				<img src="img/free.png" class="img">
+				<h3>Gratuit</h3>
+				<p>Aucuns frais juste l’obligation de pratiquer 30 minutes de sport par semaine et de participer aux évènements proposés par les partenaires Wash&Watt</p>
+			</div>
+			<div class="image5 col-md-4 col-sm-6">
+				<img src="img/localisation.png" class="img">
+				<h3>Géocalisation</h3>
+				<p>Situé en plein centre de Toulouse.
+				</p>
+			</div>
+			<div class="image6 col-md-4 col-sm-6">
+				<img src="img/environnement.png" class="img">
+				<h3>Écologie</h3>
+				<p>Les vélos électriques alimentent la laverie, pour réduire notre impact énergétique sur la planète</p>
+			</div>
+		</div>
+
+
+		<footer>
+			{% include 'v_footer.html.twig' %}
+		</footer>
+	</body>
 </html>

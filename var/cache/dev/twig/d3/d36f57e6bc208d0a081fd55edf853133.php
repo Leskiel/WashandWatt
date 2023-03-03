@@ -56,13 +56,11 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
         echo "\" type=\"text/css\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Poppins&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-\t\t<title>WashandWatt</title>
-\t\t<!--
-\t\t<meta property=\"og:url\"                content=\"http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html\" />
-\t\t<meta property=\"og:type\"               content=\"article\" />
-\t\t<meta property=\"og:title\"              content=\"When Great Minds Don’t Think Alike\" />
-\t\t<meta property=\"og:description\"        content=\"How much does culture influence creative thinking?\" />
-\t\t<meta property=\"og:image\"              content=\"http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg\" />-->
+\t\t<title>Wash&Watt</title>
+\t\t<meta property=\"og:title\" content=\"WashandWatt\"/>
+\t\t<meta property=\"og:description\" content=\"La première laverie réservée aux étudiants pour se rencontrer, contribuer au développement durable, et faire du sport. Laver, pedaler, et créer de l’énergie dans un lieu inédit favorisant les interactions sociales.\"/>
+\t\t<meta name=\"Language\" content=\"fr\"/>
+\t\t<meta charset=\"utf-8\"/>
 
 \t</head>
 
@@ -139,13 +137,11 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 \t\t<link rel=\"stylesheet\" href=\"{{ asset('style/navBar.css')}}\" type=\"text/css\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Poppins&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
-\t\t<title>WashandWatt</title>
-\t\t<!--
-\t\t<meta property=\"og:url\"                content=\"http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html\" />
-\t\t<meta property=\"og:type\"               content=\"article\" />
-\t\t<meta property=\"og:title\"              content=\"When Great Minds Don’t Think Alike\" />
-\t\t<meta property=\"og:description\"        content=\"How much does culture influence creative thinking?\" />
-\t\t<meta property=\"og:image\"              content=\"http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg\" />-->
+\t\t<title>Wash&Watt</title>
+\t\t<meta property=\"og:title\" content=\"WashandWatt\"/>
+\t\t<meta property=\"og:description\" content=\"La première laverie réservée aux étudiants pour se rencontrer, contribuer au développement durable, et faire du sport. Laver, pedaler, et créer de l’énergie dans un lieu inédit favorisant les interactions sociales.\"/>
+\t\t<meta name=\"Language\" content=\"fr\"/>
+\t\t<meta charset=\"utf-8\"/>
 
 \t</head>
 
