@@ -15,3 +15,7 @@ app_becomepartner:
 app_legalnotice:
  path: /mention
  controller: App\Controller\c_legalNoticePage::index
+
+app_about:
+ path: /propos
+ controller: App\Controller\c_about::index

@@ -44,13 +44,14 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 <html lang=\"en\">
 \t<head>
 \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-\t\t<title>Wash</title>
+\t\t<title>Wash&Watt</title>
 
 \t\t<!-- Inclure les fichiers CSS -->
 \t\t<link rel=\"stylesheet\" href=\"";
         // line 8
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style/homePage.css"), "html", null, true);
         echo "\">
+
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Poppins&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
 \t\t<link
@@ -65,9 +66,9 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 
 \t\t<header>
 \t\t\t";
-        // line 22
-        $this->loadTemplate("navBar.html.twig", "v_homePage.html.twig", 22)->display($context);
         // line 23
+        $this->loadTemplate("navBar.html.twig", "v_homePage.html.twig", 23)->display($context);
+        // line 24
         echo "\t\t</header>
 
 \t\t<h1 class=\"text-center\">
@@ -99,20 +100,6 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t<div class=\"bandeau\">
 \t\t\t<h1>Un lieu de vie pour les étudiants</h1>
 \t\t</div>
-
-\t\t<!--
-\t\t\t\t<div class=\"row\">
-\t\t\t\t\t<div class=\"col-md-4 col-sm-6 mb-3\">
-\t\t\t\t\t\t<img src=\"img/etudiant_diplome_1.png\" class=\"image-icon img-fluid\" alt=\"Etudiant diplome\">
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-4 col-sm-6 mb-3\">
-\t\t\t\t\t\t<img src=\"img/horloge_murale_1.png\" class=\"image-icon img-fluid\" alt=\"Horloge murale\">
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-4 col-sm-6 mb-3\">
-\t\t\t\t\t\t<img src=\"img/laverie_2_1.png\" class=\"image-icon img-fluid\" alt=\"Laverie\">
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t-->
 \t\t<section class=\"inscription\">
 \t\t\t<div class=\"containers\">
 \t\t\t\t<ol>
@@ -120,8 +107,8 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">1</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Créez un compte</h3>
-\t\t\t\t\t\t\t\t<p>Cliquez sur le bouton \"Inscription\" en haut à droite de la page et remplissez le formulaire d'inscription en indiquant votre nom, votre adresse e-mail et votre mot de passe.</p>
+\t\t\t\t\t\t\t\t<h3>Inscription à la newsletter</h3>
+\t\t\t\t\t\t\t\t<p>Pour commencer, inscrivez-vous à notre newsletter. </p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
@@ -129,8 +116,8 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">2</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Vérifiez votre adresse e-mail</h3>
-\t\t\t\t\t\t\t\t<p>Nous vous enverrons un e-mail de vérification. Cliquez sur le lien dans l'e-mail pour activer votre compte.</p>
+\t\t\t\t\t\t\t\t<h3>Questionnaire d'éligibilité</h3>
+\t\t\t\t\t\t\t\t<p>Vous recevrez ensuite un questionnaire pour déterminer si vous êtes éligible à notre service. </p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
@@ -138,8 +125,8 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">3</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Connectez-vous</h3>
-\t\t\t\t\t\t\t\t<p>Entrez votre adresse e-mail et votre mot de passe sur la page de connexion pour accéder à votre compte.</p>
+\t\t\t\t\t\t\t\t<h3>Création de compte</h3>
+\t\t\t\t\t\t\t\t<p>Vous pourez créer votre compte pour accéder à notre laverie et vous recevrez un QR code pour accèder à notre laverie.</p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
@@ -147,13 +134,14 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">4</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Complétez votre profil</h3>
-\t\t\t\t\t\t\t\t<p>Une fois connecté, complétez votre profil en ajoutant des informations sur vous-même, votre entreprise ou vos centres d'intérêt.</p>
+\t\t\t\t\t\t\t\t<h3>Choix des horaires</h3>
+\t\t\t\t\t\t\t\t<p>Enfin, vous pouvez choisir les horaires qui vous conviennent pour utiliser notre laverie. Nous avons des créneaux disponibles tout au long de la semaine, du matin au soir.</p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
 \t\t\t\t</ol>
 \t\t\t</div>
+
 \t\t</section>
 
 \t\t<div class=\"bandeau2 row\">
@@ -192,14 +180,60 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t<p>Les vélos électriques alimentent la laverie, pour réduire notre impact énergétique sur la planète</p>
 \t\t\t</div>
 \t\t</div>
+\t\t<h1>
+\t\t\t<span class=\"open\">Ouverture</span>
+\t\t</h1>
+\t\t<div class=\"countdown-wrapper\">
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"months\"></span>
+\t\t\t\t<span class=\"countdown-label\">Mois</span>
+\t\t\t</div>
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"days\"></span>
+\t\t\t\t<span class=\"countdown-label\">Jours</span>
+\t\t\t</div>
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"hours\"></span>
+\t\t\t\t<span class=\"countdown-label\">Heures</span>
+\t\t\t</div>
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"minutes\"></span>
+\t\t\t\t<span class=\"countdown-label\">Minutes</span>
+\t\t\t</div>
+\t\t</div>
+\t\t<script>
+\t\t\tconst countdownDate = new Date('2023-12-31T23:59:59');
+const monthsEl = document.getElementById('months');
+const daysEl = document.getElementById('days');
+const hoursEl = document.getElementById('hours');
+const minutesEl = document.getElementById('minutes');
 
+function updateCountdown() {
+const now = new Date();
+const diff = countdownDate - now;
+
+const months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30));
+const days = Math.floor(diff / (1000 * 60 * 60 * 24)) % 30;
+const hours = Math.floor(diff / (1000 * 60 * 60)) % 24;
+const minutes = Math.floor(diff / (1000 * 60)) % 60;
+
+monthsEl.textContent = months < 10 ? '0' + months : months;
+daysEl.textContent = days < 10 ? '0' + days : days;
+hoursEl.textContent = hours < 10 ? '0' + hours : hours;
+minutesEl.textContent = minutes < 10 ? '0' + minutes : minutes;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+\t\t</script>
 
 \t\t<footer>
 \t\t\t";
-        // line 150
-        $this->loadTemplate("v_footer.html.twig", "v_homePage.html.twig", 150)->display($context);
-        // line 151
+        // line 183
+        $this->loadTemplate("v_footer.html.twig", "v_homePage.html.twig", 183)->display($context);
+        // line 184
         echo "\t\t</footer>
+
 \t</body>
 </html>
 ";
@@ -223,7 +257,7 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 
     public function getDebugInfo()
     {
-        return array (  202 => 151,  200 => 150,  71 => 23,  69 => 22,  52 => 8,  43 => 1,);
+        return array (  235 => 184,  233 => 183,  72 => 24,  70 => 23,  52 => 8,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -232,10 +266,11 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 <html lang=\"en\">
 \t<head>
 \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-\t\t<title>Wash</title>
+\t\t<title>Wash&Watt</title>
 
 \t\t<!-- Inclure les fichiers CSS -->
 \t\t<link rel=\"stylesheet\" href=\"{{ asset('style/homePage.css') }}\">
+
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Poppins&display=swap\" rel=\"stylesheet\">
 \t\t<link href=\"https://fonts.googleapis.com/css?family=Rubik&display=swap\" rel=\"stylesheet\">
 \t\t<link
@@ -281,20 +316,6 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t<div class=\"bandeau\">
 \t\t\t<h1>Un lieu de vie pour les étudiants</h1>
 \t\t</div>
-
-\t\t<!--
-\t\t\t\t<div class=\"row\">
-\t\t\t\t\t<div class=\"col-md-4 col-sm-6 mb-3\">
-\t\t\t\t\t\t<img src=\"img/etudiant_diplome_1.png\" class=\"image-icon img-fluid\" alt=\"Etudiant diplome\">
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-4 col-sm-6 mb-3\">
-\t\t\t\t\t\t<img src=\"img/horloge_murale_1.png\" class=\"image-icon img-fluid\" alt=\"Horloge murale\">
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-4 col-sm-6 mb-3\">
-\t\t\t\t\t\t<img src=\"img/laverie_2_1.png\" class=\"image-icon img-fluid\" alt=\"Laverie\">
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t-->
 \t\t<section class=\"inscription\">
 \t\t\t<div class=\"containers\">
 \t\t\t\t<ol>
@@ -302,8 +323,8 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">1</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Créez un compte</h3>
-\t\t\t\t\t\t\t\t<p>Cliquez sur le bouton \"Inscription\" en haut à droite de la page et remplissez le formulaire d'inscription en indiquant votre nom, votre adresse e-mail et votre mot de passe.</p>
+\t\t\t\t\t\t\t\t<h3>Inscription à la newsletter</h3>
+\t\t\t\t\t\t\t\t<p>Pour commencer, inscrivez-vous à notre newsletter. </p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
@@ -311,8 +332,8 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">2</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Vérifiez votre adresse e-mail</h3>
-\t\t\t\t\t\t\t\t<p>Nous vous enverrons un e-mail de vérification. Cliquez sur le lien dans l'e-mail pour activer votre compte.</p>
+\t\t\t\t\t\t\t\t<h3>Questionnaire d'éligibilité</h3>
+\t\t\t\t\t\t\t\t<p>Vous recevrez ensuite un questionnaire pour déterminer si vous êtes éligible à notre service. </p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
@@ -320,8 +341,8 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">3</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Connectez-vous</h3>
-\t\t\t\t\t\t\t\t<p>Entrez votre adresse e-mail et votre mot de passe sur la page de connexion pour accéder à votre compte.</p>
+\t\t\t\t\t\t\t\t<h3>Création de compte</h3>
+\t\t\t\t\t\t\t\t<p>Vous pourez créer votre compte pour accéder à notre laverie et vous recevrez un QR code pour accèder à notre laverie.</p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
@@ -329,13 +350,14 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t\t\t<div class=\"step\">
 \t\t\t\t\t\t\t<div class=\"step-number\">4</div>
 \t\t\t\t\t\t\t<div class=\"step-description\">
-\t\t\t\t\t\t\t\t<h3>Complétez votre profil</h3>
-\t\t\t\t\t\t\t\t<p>Une fois connecté, complétez votre profil en ajoutant des informations sur vous-même, votre entreprise ou vos centres d'intérêt.</p>
+\t\t\t\t\t\t\t\t<h3>Choix des horaires</h3>
+\t\t\t\t\t\t\t\t<p>Enfin, vous pouvez choisir les horaires qui vous conviennent pour utiliser notre laverie. Nous avons des créneaux disponibles tout au long de la semaine, du matin au soir.</p>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
 \t\t\t\t</ol>
 \t\t\t</div>
+
 \t\t</section>
 
 \t\t<div class=\"bandeau2 row\">
@@ -374,11 +396,57 @@ class __TwigTemplate_e3309ed460d59153757fb16b42db443f extends Template
 \t\t\t\t<p>Les vélos électriques alimentent la laverie, pour réduire notre impact énergétique sur la planète</p>
 \t\t\t</div>
 \t\t</div>
+\t\t<h1>
+\t\t\t<span class=\"open\">Ouverture</span>
+\t\t</h1>
+\t\t<div class=\"countdown-wrapper\">
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"months\"></span>
+\t\t\t\t<span class=\"countdown-label\">Mois</span>
+\t\t\t</div>
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"days\"></span>
+\t\t\t\t<span class=\"countdown-label\">Jours</span>
+\t\t\t</div>
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"hours\"></span>
+\t\t\t\t<span class=\"countdown-label\">Heures</span>
+\t\t\t</div>
+\t\t\t<div class=\"countdown-item\">
+\t\t\t\t<span class=\"countdown-value\" id=\"minutes\"></span>
+\t\t\t\t<span class=\"countdown-label\">Minutes</span>
+\t\t\t</div>
+\t\t</div>
+\t\t<script>
+\t\t\tconst countdownDate = new Date('2023-12-31T23:59:59');
+const monthsEl = document.getElementById('months');
+const daysEl = document.getElementById('days');
+const hoursEl = document.getElementById('hours');
+const minutesEl = document.getElementById('minutes');
 
+function updateCountdown() {
+const now = new Date();
+const diff = countdownDate - now;
+
+const months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30));
+const days = Math.floor(diff / (1000 * 60 * 60 * 24)) % 30;
+const hours = Math.floor(diff / (1000 * 60 * 60)) % 24;
+const minutes = Math.floor(diff / (1000 * 60)) % 60;
+
+monthsEl.textContent = months < 10 ? '0' + months : months;
+daysEl.textContent = days < 10 ? '0' + days : days;
+hoursEl.textContent = hours < 10 ? '0' + hours : hours;
+minutesEl.textContent = minutes < 10 ? '0' + minutes : minutes;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+\t\t</script>
 
 \t\t<footer>
 \t\t\t{% include 'v_footer.html.twig' %}
 \t\t</footer>
+
 \t</body>
 </html>
 ", "v_homePage.html.twig", "C:\\Web2\\WashandWatt\\templates\\v_homePage.html.twig");

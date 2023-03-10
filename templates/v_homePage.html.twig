@@ -2,10 +2,11 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Wash</title>
+		<title>Wash&Watt</title>
 
 		<!-- Inclure les fichiers CSS -->
 		<link rel="stylesheet" href="{{ asset('style/homePage.css') }}">
+
 		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 		<link
@@ -51,20 +52,6 @@
 		<div class="bandeau">
 			<h1>Un lieu de vie pour les étudiants</h1>
 		</div>
-
-		<!--
-				<div class="row">
-					<div class="col-md-4 col-sm-6 mb-3">
-						<img src="img/etudiant_diplome_1.png" class="image-icon img-fluid" alt="Etudiant diplome">
-					</div>
-					<div class="col-md-4 col-sm-6 mb-3">
-						<img src="img/horloge_murale_1.png" class="image-icon img-fluid" alt="Horloge murale">
-					</div>
-					<div class="col-md-4 col-sm-6 mb-3">
-						<img src="img/laverie_2_1.png" class="image-icon img-fluid" alt="Laverie">
-					</div>
-				</div>
-		-->
 		<section class="inscription">
 			<div class="containers">
 				<ol>
@@ -72,8 +59,8 @@
 						<div class="step">
 							<div class="step-number">1</div>
 							<div class="step-description">
-								<h3>Créez un compte</h3>
-								<p>Cliquez sur le bouton "Inscription" en haut à droite de la page et remplissez le formulaire d'inscription en indiquant votre nom, votre adresse e-mail et votre mot de passe.</p>
+								<h3>Inscription à la newsletter</h3>
+								<p>Pour commencer, inscrivez-vous à notre newsletter. </p>
 							</div>
 						</div>
 					</li>
@@ -81,8 +68,8 @@
 						<div class="step">
 							<div class="step-number">2</div>
 							<div class="step-description">
-								<h3>Vérifiez votre adresse e-mail</h3>
-								<p>Nous vous enverrons un e-mail de vérification. Cliquez sur le lien dans l'e-mail pour activer votre compte.</p>
+								<h3>Questionnaire d'éligibilité</h3>
+								<p>Vous recevrez ensuite un questionnaire pour déterminer si vous êtes éligible à notre service. </p>
 							</div>
 						</div>
 					</li>
@@ -90,8 +77,8 @@
 						<div class="step">
 							<div class="step-number">3</div>
 							<div class="step-description">
-								<h3>Connectez-vous</h3>
-								<p>Entrez votre adresse e-mail et votre mot de passe sur la page de connexion pour accéder à votre compte.</p>
+								<h3>Création de compte</h3>
+								<p>Vous pourez créer votre compte pour accéder à notre laverie et vous recevrez un QR code pour accèder à notre laverie.</p>
 							</div>
 						</div>
 					</li>
@@ -99,13 +86,14 @@
 						<div class="step">
 							<div class="step-number">4</div>
 							<div class="step-description">
-								<h3>Complétez votre profil</h3>
-								<p>Une fois connecté, complétez votre profil en ajoutant des informations sur vous-même, votre entreprise ou vos centres d'intérêt.</p>
+								<h3>Choix des horaires</h3>
+								<p>Enfin, vous pouvez choisir les horaires qui vous conviennent pour utiliser notre laverie. Nous avons des créneaux disponibles tout au long de la semaine, du matin au soir.</p>
 							</div>
 						</div>
 					</li>
 				</ol>
 			</div>
+
 		</section>
 
 		<div class="bandeau2 row">
@@ -144,10 +132,56 @@
 				<p>Les vélos électriques alimentent la laverie, pour réduire notre impact énergétique sur la planète</p>
 			</div>
 		</div>
+		<h1>
+			<span class="open">Ouverture</span>
+		</h1>
+		<div class="countdown-wrapper">
+			<div class="countdown-item">
+				<span class="countdown-value" id="months"></span>
+				<span class="countdown-label">Mois</span>
+			</div>
+			<div class="countdown-item">
+				<span class="countdown-value" id="days"></span>
+				<span class="countdown-label">Jours</span>
+			</div>
+			<div class="countdown-item">
+				<span class="countdown-value" id="hours"></span>
+				<span class="countdown-label">Heures</span>
+			</div>
+			<div class="countdown-item">
+				<span class="countdown-value" id="minutes"></span>
+				<span class="countdown-label">Minutes</span>
+			</div>
+		</div>
+		<script>
+			const countdownDate = new Date('2023-12-31T23:59:59');
+const monthsEl = document.getElementById('months');
+const daysEl = document.getElementById('days');
+const hoursEl = document.getElementById('hours');
+const minutesEl = document.getElementById('minutes');
 
+function updateCountdown() {
+const now = new Date();
+const diff = countdownDate - now;
+
+const months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30));
+const days = Math.floor(diff / (1000 * 60 * 60 * 24)) % 30;
+const hours = Math.floor(diff / (1000 * 60 * 60)) % 24;
+const minutes = Math.floor(diff / (1000 * 60)) % 60;
+
+monthsEl.textContent = months < 10 ? '0' + months : months;
+daysEl.textContent = days < 10 ? '0' + days : days;
+hoursEl.textContent = hours < 10 ? '0' + hours : hours;
+minutesEl.textContent = minutes < 10 ? '0' + minutes : minutes;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+		</script>
 
 		<footer>
 			{% include 'v_footer.html.twig' %}
 		</footer>
+
 	</body>
 </html>

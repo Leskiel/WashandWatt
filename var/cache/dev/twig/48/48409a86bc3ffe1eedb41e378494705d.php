@@ -67,10 +67,8 @@ class __TwigTemplate_1df7b4e7ecb1cbea311b0ebfe23cccfa extends Template
 \t\t\t\t<span class=\"slogan\">Lessivez, rencontrez, et pédalez</span>
 \t\t\t</div>
 \t\t\t<div class=\"col-md-5\">
-\t\t\t\t<span class=\"title-news\">Venez suivre nos aventures</span>
-\t\t\t\t<div class=\"input-group mb-3\">
-\t\t\t\t\t<input type=\"email\" class=\"form-control\" placeholder=\"Saisissez votre e-mail\" required>
-\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Envoyer</button>
+\t\t\t\t<div class=\"iframe-wrapper\">
+\t\t\t\t\t<iframe width=\"370\" height=\"380\" src=\"https://ccb90580.sibforms.com/serve/MUIEAL2vEj2dpgaQ9kAHJgFMUgSNH0xN3y2rRTDL-cEheEXQCFJOp8JZl0I2gZKMn-iEmgwmh9gl3PQnBAA7tleM2A9IxYdtJ5VDlMrcf-mGGPzC-go77Utu1eAGKxAXVK2BukBQsdIyk5hIyuoWNcSsSFXYRbf6j7RcxiTGsFhGDIg2mZDaLwmQJUK82Pe37qAvFDh7zDMPs9lH\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<div class=\"col-md-3\">
@@ -90,6 +88,9 @@ class __TwigTemplate_1df7b4e7ecb1cbea311b0ebfe23cccfa extends Template
 \t\t\t\t\t<img class=\"logo5\" src=\"img/linkedin.png\" alt=\"logo\">
 \t\t\t\t</div>
 \t\t\t</div>
+\t\t</div>
+\t\t<div class=\"copyright\">
+\t\t\t<br>&copy; 2023 Gomes Duarte Hugo - Dupont Mathis.
 \t\t</div>
 \t</footer>
 </html>
@@ -143,10 +144,8 @@ class __TwigTemplate_1df7b4e7ecb1cbea311b0ebfe23cccfa extends Template
 \t\t\t\t<span class=\"slogan\">Lessivez, rencontrez, et pédalez</span>
 \t\t\t</div>
 \t\t\t<div class=\"col-md-5\">
-\t\t\t\t<span class=\"title-news\">Venez suivre nos aventures</span>
-\t\t\t\t<div class=\"input-group mb-3\">
-\t\t\t\t\t<input type=\"email\" class=\"form-control\" placeholder=\"Saisissez votre e-mail\" required>
-\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary\">Envoyer</button>
+\t\t\t\t<div class=\"iframe-wrapper\">
+\t\t\t\t\t<iframe width=\"370\" height=\"380\" src=\"https://ccb90580.sibforms.com/serve/MUIEAL2vEj2dpgaQ9kAHJgFMUgSNH0xN3y2rRTDL-cEheEXQCFJOp8JZl0I2gZKMn-iEmgwmh9gl3PQnBAA7tleM2A9IxYdtJ5VDlMrcf-mGGPzC-go77Utu1eAGKxAXVK2BukBQsdIyk5hIyuoWNcSsSFXYRbf6j7RcxiTGsFhGDIg2mZDaLwmQJUK82Pe37qAvFDh7zDMPs9lH\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<div class=\"col-md-3\">
@@ -166,6 +165,9 @@ class __TwigTemplate_1df7b4e7ecb1cbea311b0ebfe23cccfa extends Template
 \t\t\t\t\t<img class=\"logo5\" src=\"img/linkedin.png\" alt=\"logo\">
 \t\t\t\t</div>
 \t\t\t</div>
+\t\t</div>
+\t\t<div class=\"copyright\">
+\t\t\t<br>&copy; 2023 Gomes Duarte Hugo - Dupont Mathis.
 \t\t</div>
 \t</footer>
 </html>

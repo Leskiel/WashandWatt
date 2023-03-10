@@ -119,31 +119,17 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<h2 class=\"title-avantage\" id=\"contact\">
-\t\t\t\t<span class=\"title-partners\">Devenez nos partenaires</span>
+\t\t\t\t<span class=\"title-partners\">Devenez notre partenaire</span>
 \t\t\t</h2>
-\t\t\t<form method=\"post\">
-\t\t\t\t<label>
-\t\t\t\t\t<input type=\"text\" name=\"entreprise\" placeholder=\"Nom de l'entreprise\">
-\t\t\t\t</label>
-
-\t\t\t\t<label>
-\t\t\t\t\t<input type=\"email\" name=\"email\" placeholder=\"Email\">
-\t\t\t\t</label>
-
-\t\t\t\t<label>
-\t\t\t\t\t<textarea name=\"message\" placeholder=\"Message\"></textarea>
-\t\t\t\t</label>
-
-\t\t\t\t<input type=\"submit\" value=\"Envoyer\">
-\t\t\t\t<script></script>
-\t\t\t</form>
+\t\t\t<div data-tf-widget=\"xOftVmM7\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=My typeform\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"></div>
+\t\t\t<script src=\"//embed.typeform.com/next/embed.js\"></script>
 \t\t</main>
 
 \t\t<footer>
 \t\t\t";
-        // line 95
-        $this->loadTemplate("v_footer.html.twig", "v_becomePartnerPage.html.twig", 95)->display($context);
-        // line 96
+        // line 81
+        $this->loadTemplate("v_footer.html.twig", "v_becomePartnerPage.html.twig", 81)->display($context);
+        // line 82
         echo "\t\t</footer>
 \t</body>
 </html>
@@ -168,7 +154,7 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 
     public function getDebugInfo()
     {
-        return array (  147 => 96,  145 => 95,  61 => 13,  59 => 12,  50 => 6,  43 => 1,);
+        return array (  133 => 82,  131 => 81,  61 => 13,  59 => 12,  50 => 6,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -246,24 +232,10 @@ class __TwigTemplate_598aa5de855eee3110e17fe8f1b1ebe5 extends Template
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t\t<h2 class=\"title-avantage\" id=\"contact\">
-\t\t\t\t<span class=\"title-partners\">Devenez nos partenaires</span>
+\t\t\t\t<span class=\"title-partners\">Devenez notre partenaire</span>
 \t\t\t</h2>
-\t\t\t<form method=\"post\">
-\t\t\t\t<label>
-\t\t\t\t\t<input type=\"text\" name=\"entreprise\" placeholder=\"Nom de l'entreprise\">
-\t\t\t\t</label>
-
-\t\t\t\t<label>
-\t\t\t\t\t<input type=\"email\" name=\"email\" placeholder=\"Email\">
-\t\t\t\t</label>
-
-\t\t\t\t<label>
-\t\t\t\t\t<textarea name=\"message\" placeholder=\"Message\"></textarea>
-\t\t\t\t</label>
-
-\t\t\t\t<input type=\"submit\" value=\"Envoyer\">
-\t\t\t\t<script></script>
-\t\t\t</form>
+\t\t\t<div data-tf-widget=\"xOftVmM7\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=My typeform\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"></div>
+\t\t\t<script src=\"//embed.typeform.com/next/embed.js\"></script>
 \t\t</main>
 
 \t\t<footer>

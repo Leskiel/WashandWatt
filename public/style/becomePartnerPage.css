@@ -142,73 +142,7 @@ main {
   color: #06988d; /* changer la couleur en rouge */
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  margin: auto;
-  padding: 2%;
-}
 
-input[type="text"], input[type="email"],textarea {
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-bottom: 2px solid #ccc;
-  font-size: 16px;
-}
-
-input[type="text"]:focus, textarea:focus {
-  border-bottom: 2px solid #06988d;
-}
-
-button {
-  background-color: #06988d;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #047d6b;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-}
-
-form textarea {
-  height: 200px;
-  resize: none;
-}
-
-form button {
-  width: 150px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #06988d;
-  color: #fff;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-form button:hover {
-  background-color: #056f64;
-}
 
 .title-partners{
   color: #054457;

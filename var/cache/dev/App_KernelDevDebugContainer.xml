@@ -336,6 +336,13 @@
     <service id="App\Entity" class="App\Entity" abstract="true">
       <tag name="container.excluded" source="in &quot;config/services.yaml&quot;"/>
     </service>
+    <service id="App\Controller\c_about" class="App\Controller\c_about" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <tag name="container.service_subscriber"/>
+      <call method="setContainer">
+        <argument type="service" id=".service_locator.CshazM0.App\Controller\c_about"/>
+      </call>
+    </service>
     <service id="App\Controller\c_becomePartnerPage" class="App\Controller\c_becomePartnerPage" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
@@ -6063,6 +6070,9 @@
     <service id="framework_extra_bundle.argument_name_convertor" class="Sensio\Bundle\FrameworkExtraBundle\Request\ArgumentNameConverter">
       <argument type="service" id="argument_metadata_factory"/>
     </service>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\c_about" class="App\Controller\c_about" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\c_about" class="App\Controller\c_about" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\c_about" class="App\Controller\c_about" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\c_becomePartnerPage" class="App\Controller\c_becomePartnerPage" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\c_becomePartnerPage" class="App\Controller\c_becomePartnerPage" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\c_becomePartnerPage" class="App\Controller\c_becomePartnerPage" autowire="true" autoconfigure="true" abstract="true"/>
@@ -6954,6 +6964,12 @@
         <argument key="serializer" type="service_closure" id="debug.serializer" on-invalid="ignore"/>
         <argument key="twig" type="service_closure" id="twig" on-invalid="ignore"/>
       </argument>
+    </service>
+    <service id=".service_locator.CshazM0.App\Controller\c_about" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator_context" id="App\Controller\c_about"/>
+      <argument>App\Controller\c_about</argument>
+      <argument type="service" id="service_container"/>
+      <factory service=".service_locator.CshazM0" method="withContext"/>
     </service>
     <service id=".service_locator.CshazM0.App\Controller\c_becomePartnerPage" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\c_becomePartnerPage"/>

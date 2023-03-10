@@ -61,6 +61,10 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 \t\t<meta property=\"og:description\" content=\"La première laverie réservée aux étudiants pour se rencontrer, contribuer au développement durable, et faire du sport. Laver, pedaler, et créer de l’énergie dans un lieu inédit favorisant les interactions sociales.\"/>
 \t\t<meta name=\"Language\" content=\"fr\"/>
 \t\t<meta charset=\"utf-8\"/>
+\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"";
+        // line 19
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/favicon.ico"), "html", null, true);
+        echo "\"/>
 
 \t</head>
 
@@ -80,7 +84,7 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/partenaires\">Nos Partenaires</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
-\t\t\t\t\t\t<a class=\"nav-link\" href=\"/apropos\">À Propos</a>
+\t\t\t\t\t\t<a class=\"nav-link\" href=\"/propos\">À Propos</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/inscription\">Inscription</a>
@@ -119,7 +123,7 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 
     public function getDebugInfo()
     {
-        return array (  55 => 11,  43 => 1,);
+        return array (  66 => 19,  55 => 11,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -142,6 +146,7 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 \t\t<meta property=\"og:description\" content=\"La première laverie réservée aux étudiants pour se rencontrer, contribuer au développement durable, et faire du sport. Laver, pedaler, et créer de l’énergie dans un lieu inédit favorisant les interactions sociales.\"/>
 \t\t<meta name=\"Language\" content=\"fr\"/>
 \t\t<meta charset=\"utf-8\"/>
+\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"{{ asset('img/favicon.ico') }}\"/>
 
 \t</head>
 
@@ -161,7 +166,7 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/partenaires\">Nos Partenaires</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
-\t\t\t\t\t\t<a class=\"nav-link\" href=\"/apropos\">À Propos</a>
+\t\t\t\t\t\t<a class=\"nav-link\" href=\"/propos\">À Propos</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/inscription\">Inscription</a>
