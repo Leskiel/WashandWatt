@@ -85,13 +85,14 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/propos\">À Propos</a>
-\t\t\t\t\t</li>
+\t\t\t\t\t</li><!--
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/inscription\">Inscription</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/connexion\">Connexion</a>
 \t\t\t\t\t</li>
+\t\t\t\t\t-->
 \t\t\t\t</ul>
 \t\t\t</div>
 \t\t</nav>
@@ -167,13 +168,14 @@ class __TwigTemplate_1f5be6a4f803de16b80629ac55dd2dc6 extends Template
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/propos\">À Propos</a>
-\t\t\t\t\t</li>
+\t\t\t\t\t</li><!--
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/inscription\">Inscription</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li class=\"nav-item\">
 \t\t\t\t\t\t<a class=\"nav-link\" href=\"/connexion\">Connexion</a>
 \t\t\t\t\t</li>
+\t\t\t\t\t-->
 \t\t\t\t</ul>
 \t\t\t</div>
 \t\t</nav>
